@@ -1,0 +1,116 @@
+body {
+  width:100%;
+  background-color: black;
+}
+
+
+#startscreen {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.titlebutton {
+  background-color: red;
+  border-color: black;
+  z-index: 1;
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  display: block;
+}
+
+.titlebutton:hover {
+  background-color: white;
+}
+#buttonbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: -15%;
+
+}
+
+#selectclass {
+  display: none;
+  background-color: white;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#classbox {
+  padding: 10px;
+}
+#classbox img {
+  width:19%;
+  margin-left: 4%;
+  padding: 3px;
+  margin-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+}
+
+#potentialskills {
+  color: lightgreen;
+  margin-left: 70%;
+  position: fixed;
+  margin-top: -21%;
+
+}
+
+#classdescription {
+  font-family: sans-serif;
+  position: fixed;
+  color: white;
+  background-color: black;
+  margin-top: 20%;
+  width: 90%;
+  border: 2px solid white;
+  padding: none;
+
+}
+
+#classdescription h1 {
+  font-size: 5vw;
+  margin-top: -1%;
+}
+
+#classdescription h2 {
+  font-size: 3vw;
+  margin-top: -5%
+}
+
+#classtext {
+  width: 50%;
+}
+
+#skillpreviewpane {
+  display: grid;
+  grid-template-columns: 4;
+  grid-auto-rows: 2;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: -25.25%;
+  border: 1px solid white;
+  padding: 4.5px;
+}
+
+#skillpreviewpane img {
+  width: 15%;
+}
+
+#positives {
+  color: green;
+}
+
+#negatives {
+  color: red;
+}
+@media only screen and (max-width: 415px) {
+  #startscreen {
+    width: 100%;
+    margin-left: 0;
+    position: absolute;
+  }
+}
